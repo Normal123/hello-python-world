@@ -7,4 +7,20 @@ if(operation== '+'):
 
 if (operation == '-'):
     print(a, '-', b, '=', a - b)
-# H W  add * & /
+if (operation == '*'):
+    print(a, '*', b, '=', a * b)
+if (operation == '/'):
+    if b==0:
+         print ("Ділення на 0 неможливе")
+    else:
+         print(a, '/', b, '=', a / b)
+if (operation == '//'):
+    if b==0:
+         print ("Ділення на 0 неможливе")
+    else:
+         print(a, '//', b, '=', a // b)
+if (operation == '%'):
+    if b==0:
+         print ("Ділення на 0 неможливе")
+    else:
+         print(a, '%', b, '=', a % b)
